@@ -9,7 +9,8 @@ class Controller_Users extends Controller_Template
 
 	public function action_index()
 	{
-		return View::forge('users/index');
+		$data = Model_User::find('all');
+		return View::forge('users/index', ['data' => $data]);
 	}
 	public function action_create(){
 		return View::forge('users/create');
