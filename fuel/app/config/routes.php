@@ -39,5 +39,7 @@ return array(
 	 */
 
 	'hello(/:name)?' => array('welcome/hello', 'name' => 'hello'),
-	'users' => array('users/index'),
+	'users' => 'users/index',
+	'users/create' => 'users/create',
+	'users/store' => 'users/store',
 );
