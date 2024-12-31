@@ -3,18 +3,12 @@
 class Model_User extends \Orm\Model
 {
 	protected static $_properties = array(
-		"id" => array(
-			"label" => "Id",
-			"data_type" => "int",
-		),
-		"created_at" => array(
-			"label" => "Created at",
-			"data_type" => "int",
-		),
-		"updated_at" => array(
-			"label" => "Updated at",
-			"data_type" => "int",
-		),
+		'id',
+        'name',
+        'phone',
+        'email',
+        'address',
+        'avatar',
 	);
 
 	protected static $_observers = array(
