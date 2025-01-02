@@ -1,5 +1,5 @@
 
-	<h1 class="text-center mt-5 test">List users</h1>
+<h1 class="text-center mt-5 test">List users</h1>
     <a href="<?= Uri::create('users/create') ?>">Create</a>
 	<div class="p-4">
 		<table class="table table-bordered text-center">

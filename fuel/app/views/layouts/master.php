@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
-    <?php 
+    <?php
         echo View::forge('layouts/partials/css'); 
         echo Asset::css('style.css'); 
     ?> 
@@ -16,7 +16,7 @@
     <div class="container">
         <?php echo $content; ?>
     </div>
-    
+
     <?php
         echo View::forge('layouts/partials/footer'); 
         echo View::forge('layouts/partials/js'); 
