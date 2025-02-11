@@ -33,6 +33,6 @@ class Controller_User extends Controller
 			'avatar' => $uploadPath . $fileName,
 		]);
 		$user->save();
-		return Response::redirect('users/index');
+		return Response::redirect('users');
 	}
 }    
